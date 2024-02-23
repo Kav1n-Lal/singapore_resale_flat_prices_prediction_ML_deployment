@@ -17,7 +17,7 @@ def main():
  
     
     # Storing all user input 
-    input_dict={ 'street_name':'', 'year':'2023', 'floor_area_sqm':''}
+    input_dict={ 'street_name':'', 'year':2023, 'floor_area_sqm':''}
 
     form = st.form("form1")
 
