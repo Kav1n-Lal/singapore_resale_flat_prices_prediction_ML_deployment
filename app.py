@@ -63,11 +63,13 @@ def main():
         if t[0][0]>100:
             st.markdown(safe_html,unsafe_allow_html=True)
         
-        st.markdown(f':green[Take a look at the average flat resale price over the years at] :blue[{street_name}] :green[area]')
+        
        
         visual_df=z.loc[(z['street_name']==street_name) & (z['floor_area_sqm']==floor_area_sqm)]
         g=visual_df.groupby('year')['resale_price'].mean()
-        st.bar_chart(g)
+        if len(visual_df)!=0:
+            st.markdown(f':green[Take a look at the average flat resale price over the years at] :blue[{street_name}] :green[area]')
+            st.bar_chart(g)
         
         
 
