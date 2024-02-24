@@ -7,11 +7,8 @@
 | Linear Regression    |      0.7943         |0.0494              | 0.7943              |0.0494              |
 |HistGradientBoostingRegressor|0.9615        |0.0213              | 0.9608              |0.0215              |
 
-- ### Project Demonstration video links:
-- **Part1(Intro_ipynb_explanation)**
-- []
-- **Part3(pickling_deployment)**
-- []
+- ### Project Demonstration video link:
+- Entire project explanation-[https://drive.google.com/file/d/1fokFKIVkc-_o1cI3FjBFH5SriEuzdXCq/view?usp=sharing]
 ### Others:
 - View **flat_resale_price_ML.ipynb** -where I have done data cleaning, preprocessing and training of various regression models and feature selection.
 - View **singapore_pickling.ipynb** -the refined notebook where I have used only the *selected 3 features*  and used the **HistGradientBoostingRegressor** model to run the entire dataset and save the model as a pickle file named **singapore_resale_price_saved_steps_regressor.pkl**.
